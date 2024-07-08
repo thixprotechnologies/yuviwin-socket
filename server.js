@@ -6,7 +6,7 @@ const { Server } = require('socket.io');
 const fs = require('fs'); // Import file system module
 const mysql = require("mysql");
 const mysql2 = require("mysql2");
-const port = process.env.PORT || 4040;
+const port = process.env.PORT || 4000;
 
 const httpsServer = http.createServer({
   key: fs.readFileSync("./cert/cert.key"),
